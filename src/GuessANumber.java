@@ -14,7 +14,7 @@ public class GuessANumber {
         while (!hasGuessed) {
             String input = scanner.nextLine();
             boolean isValid = true;
-            
+
             for (int i = 0; i < input.length(); i++) {
                 if (!Character.isDigit(input.charAt(i))) {
                     isValid = false;
